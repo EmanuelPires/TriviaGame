@@ -12,12 +12,12 @@ $(document).ready(function() {
   $(".start").on("click", function() {
     $("div.startButton").hide();
     $(".quiz").show();
-    $("#timer").html(timerNumber);
+    $(".timer").html(timerNumber);
 
     intervalId = setInterval(decrement, 1000);
 
     function decrement() {
-      $("#timer").html(timerNumber);
+      $(".timer").html(timerNumber);
       timerNumber--;
       if (timerNumber === -1) {
         grade();
