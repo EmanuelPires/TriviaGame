@@ -1,0 +1,91 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/javascript/app.js"></script>
+  </head>
+  <body>
+    <div class="container bigBox">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1>Trivia Game!</h1>
+          <div class="quizSpace">
+              <div class="startButton">
+              <h2 class="start">START!</h2>
+
+            </div>
+            <div class="quiz">
+              <h2>Time Remaining: <span id="timer"></span></h2>
+            <h2>How Many Legs Does an Octopus Have?</h2>
+              <form name="question1">
+              <input type="radio" name="octo" value="incorrect">
+              <label for="9">9</label>
+              <input type="radio" name="octo" value="correct">
+              <label for="8">8</label>
+              <input type="radio" name="octo"  value="incorrect">
+              <label for="10">10</label>
+            </form>
+            <h2>What Is My Favorite Number?</h2>
+            <form name="question2">
+            <input type="radio" name="octo" value="incorrect">
+            <label for="9" >9</label>
+            <input type="radio" name="octo"  value="correct">
+            <label for="11" >11</label>
+            <input type="radio" name="octo"  value="incorrect">
+            <label for="10" >10</label>
+          </form>
+          <h2>How Many Skateboards Do I Own?</h2>
+          <form name="question3">
+          <input type="radio" name="octo" value="incorrect">
+          <label for="3">3</label>
+          <input type="radio" name="octo" value="correct">
+          <label for="2">2</label>
+          <input type="radio" name="octo" value="incorrect">
+          <label for="0">0</label>
+        </form>
+        <h2>How Many World Cups Has Argentina Won</h2>
+        <form name="question4">
+        <input type="radio" name="octo" value="incorrect">
+        <label for="0">0</label>
+        <input type="radio" name= "octo" value="correct">
+        <label for="2">2</label>
+        <input type="radio" name="octo"  value="incorrect">
+        <label for="1">1</label>
+      </form>
+      <div class="doneButton">
+          <h2 class="done">DONE!</h2>
+
+        </div>
+            </div>
+
+        </div>
+        <br />
+
+        
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </body>
+</html>
