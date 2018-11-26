@@ -1,5 +1,5 @@
 //listen to a button click event.
-var timerNumber = 5;
+var timerNumber = 20;
 var intervalId;
 var numCorrect = 0;
 var numIncorrect = 0;
@@ -24,6 +24,8 @@ $(document).ready(function() {
         clearInterval(intervalId);
       }
     }
+
+    $(".done").on("click", grade);
 
     //Function to grade trivia.
     function grade() {
