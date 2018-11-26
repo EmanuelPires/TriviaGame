@@ -25,6 +25,19 @@ $(document).ready(function() {
       }
     }
 
+    //I want to animate the Done button once
+    //every question has been answered.
+    var isItDone = [];
+
+    $("input").on("click", function() {
+      isItDone.push($(this).attr("value"));
+      console.log(isItDone);
+      if (isItDone.length > 3) {
+        $(".done").animate({ opacity: "1" });
+      }
+    });
+
+    //-------------------------------------------------
     $(".done").on("click", grade);
 
     //Function to grade trivia.

@@ -26,11 +26,16 @@ form {
   text-align: center;
   border: 2px solid;
   margin: 0px 80px 0 80px;
+  background-color: white;
+  color: black;
 }
 .done {
   text-align: center;
   border: 2px solid;
   margin: 0px 80px 0 80px;
+  opacity: 0.5;
+  background-color: white;
+  color: black;
 }
 
 label {
