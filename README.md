@@ -1,5 +1,6 @@
 # TriviaGame
-Javascript Trivia Game
+
+![TriviaPort](https://user-images.githubusercontent.com/43054091/58118240-6f29ca80-7bce-11e9-9e85-441ab71cb3c4.png)
 
 This is a trivia game app which uses javascript intervals to create a trivia quiz which is timed and graded.
 
